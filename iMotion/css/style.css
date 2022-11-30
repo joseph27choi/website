@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #000000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+}
+
+a {
+    color:#092003;
+    transition: all 0.4s ease;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+.bg-voer {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+/* NAVBAR */
+.top-nav {
+    background-color: #9cc05d;
+    text-decoration: none;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: white;
+}
+
+.top-nav i, 
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(156, 208, 126, 0.37); 
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 22px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 1, 0);
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08px);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+    color: #9cc05d;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #092000;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-brand span {
+    color:rgba(156, 208, 126, 0.37)
+}
+
+/*BUTTON*/
+
+.btn {
+    padding: 9px 24px;
+}
+
+.btn-brand {
+    background-color: #9cc05d;
+    color: white;
+    border-color: #9cc05d;
+}
+
+.btn-brand:hover {
+    color: white;
+    background-color: #82a14d;
+}
+
+/* SLIDER */
+
+.slide1 {
+    background-image: linear-gradient(rgba(11, 50, 79, 0.532), rgba(9, 32, 48, 0.306)), url(../img/HydrogenLarge.jpeg);
+    background-size: cover;
+    size: unset;
+}
+
+.hydro {
+    margin: 8%;
+    margin-bottom: 3%;
+}
+
+.slide2 {
+    background-image: linear-gradient(rgba(9, 52, 83, 0.542), rgba(17, 52, 77, 0.463)), url(../img/CPU.webp);
+    background-size: cover;
+}
+
+.slide3 {
+    background-image: linear-gradient(rgba(9, 32, 48, 0.679), rgba(8, 49, 79, 0.698)), url(../img/lab.jpeg);
+    background-size: cover;
+}
+
+.slide4 {
+    background-image: linear-gradient(rgba(11, 54, 84, 0.67), rgba(5, 45, 74, 0.353)), url(../img/semiconductor.jpeg);
+    background-size: cover;
+}
+
+.semi {
+    margin: 8%;
+}
+
+.slide5 {
+    background-image: linear-gradient(rgba(9, 32, 48, 0.601), rgba(9, 32, 48, 0.482)), url(../img/refrig.jpeg);
+    background-size: cover;
+}
+
+.hvac {
+    margin: 8%;
+}
+
+
+/* OWL CAROUSEL */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;;
+    display: grid;
+    place-items: center;
+    background-color: #9cc05d !important;
+    font-size: 18px !important;
+    margin-top: 0% !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev {
+    left:0;
+}
+
+.owl-next {
+    right:0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    color:rgb(0, 1, 0);
+    background-color: #092003;
+}
+
+/* OUR GOALS */
+
+/* INFOBOX */
+
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.info-box a {
+    width: unset;
+    font-size: 70px;
+    margin-right: 13%;
+    margin-bottom: 2%;
+    color: #9cc05d;
+}
+
+.info-box img {
+    border-radius: 40%;
+}
+
+/* Section Title */
+
+.title {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* Partner Logo */
+
+.partner-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.partner-box img {
+    width: unset;
+}
+
+.partner-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12pxß;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/* GOALS */
+.goal {
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+
+}
+
+.goal p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 105%;
+    font-weight: 100;
+    color: #423f3fef;
+    text-align: center;
+}
+
+
+/* Solid Border */
+hr.solid {
+    margin-top: 5%;
+    color: black;
+    border-top: 5px solid #080808;
+    margin-bottom: 5%;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: linear-gradient(rgba(0, 46, 78, 0.764), rgba(8, 35, 54, 0.851)), url(../img/iStock-473454180-1600x400.jpeg);
+    text-align: center;
+}
+
+footer img {
+    width: 300px;
+    height: 68px;
+    display: inline-block;
+}
+
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.761);
+    padding-top: 20px;
+}
+
+.social-links a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.inv-logo img {
+    margin-bottom: 20px;
+}
+
+
+
+/* CONTACT */
+.contact-box {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.contact-box a {
+    width: unset;
+    font-size: 35px;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    color: #9cc05d;
+}
+
+.link a{
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.link a:link{
+    color:#1d270c;
+}
+
+.link a:hover {
+    color: #1f5293ef;
+    
+}
+
